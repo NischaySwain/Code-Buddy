@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Student Buddy for LeetCode",
+  "version": "1.0",
+  "description": "Get simple hints for LeetCode questions.",
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+} 

@@ -1,0 +1,11 @@
+#student-buddy-hint {
+  background: #e0f7fa;
+  color: #006064;
+  border: 1px solid #4dd0e1;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 16px;
+  font-size: 1.1em;
+  font-family: sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+} 
